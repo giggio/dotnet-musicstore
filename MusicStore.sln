@@ -1,11 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.4
+VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7D749BDA-4638-4517-B66A-D40DEDEEB141}"
 	ProjectSection(SolutionItems) = preProject
+		docker-compose.windows.yml = docker-compose.windows.yml
+		Dockerfile.windows = Dockerfile.windows
 		NuGet.config = NuGet.config
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{B7B176B6-8D4D-4EF1-BBD2-DDA650C78FFF}"
@@ -37,5 +40,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{3CFBED5D-2ED8-49DB-96FB-BDAA748DC5A0} = {B7B176B6-8D4D-4EF1-BBD2-DDA650C78FFF}
 		{CA663205-77DE-4E55-B300-85594181B5A9} = {363D2681-31A6-48C9-90BB-9ACFF4A41F06}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00239C5E-1BA2-47BF-BE7E-107BFA691F73}
 	EndGlobalSection
 EndGlobal
