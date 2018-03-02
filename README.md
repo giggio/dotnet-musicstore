@@ -21,4 +21,4 @@ This project is part of ASP.NET Core. You can find samples, documentation and ge
  * [Install Docker for Windows](https://docs.docker.com/docker-for-windows/) or [setup up Docker Windows containers](https://msdn.microsoft.com/en-us/virtualization/windowscontainers/containers_welcome)
  * `docker-compose -f .\docker-compose.windows.yml build`
  * `docker-compose -f .\docker-compose.windows.yml up`
- * Access MusicStore on either the Windows VM IP or (if container is running locally) on the container IP: `docker inspect -f "{{ .NetworkSettings.Networks.nat.IPAddress }}" musicstore_web_1`
+ * Access MusicStore on either the Windows VM IP or (if container is running locally) on the container IP: `docker inspect -f "{{ .NetworkSettings.Networks.nat.IPAddress }}" dotnetmusicstore_web_1` on port 5000
